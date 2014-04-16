@@ -1,0 +1,12 @@
+encoding:    utf-8
+permalink:   none
+timezone:    Europe/London
+
+source:      .
+include:     []
+exclude:     ['Gemfile', 'Gemfile.lock', 'Procfile']
+destination: ./_site
+
+collections:
+- people
+
