@@ -10,6 +10,59 @@ section.black {
   background: #101010;
   color: #efefef;
 }
+#navfix,
+#fixednav {
+  background: #101010;
+}
+#fixednav,
+#navfix.affix,
+#navfix.affix-top {
+  position: static;
+  width: 100%;
+}
+.revealed-image {
+  position: absolute;
+  display: none;
+}
+.revealed-image-right {
+  right: 0;
+  text-align: right;
+}
+.affix .revealed-image,
+#fixednav .revealed-image {
+  position: absolute;
+  display: block;
+  height: 31px;
+  width: 42px;
+  margin: 6px 15px 6px 15px;
+  vertical-align: middle;
+  font-size: 24px;
+}
+.affix .revealed-image a,
+#fixednav .revealed-image a {
+  color: #efefef;
+}
+@media (min-width: 768px) {
+  #navfix.affix-top {
+    position: absolute;
+    margin-top: -3em;
+    margin-left: -35px;
+  }
+  #fixednav,
+  #navfix.affix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px 0 1px 0px;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0 3px 2px -2px rgba(50, 50, 50, 0.3);
+  }
+  .fixednav-spacer {
+    margin-top: 55px;
+  }
+}
+
 .nav-pills {
   margin-bottom: 0.5em;
 }
@@ -18,10 +71,13 @@ section.black {
   font-weight: 400;
   letter-spacing: 0.05em;
   color: #efefef;
+  margin: 0px 5px;
 }
 .nav-pills > li > a:hover,
 .nav-pills > li > a:focus,
-.nav-pills > li.active > a {
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
   background: #212122;
 }
 
@@ -87,4 +143,11 @@ section.black .little-statement strong {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.flip-horizontal {
+  -webkit-transform: scaleX(-1);
+     -moz-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+       -o-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
