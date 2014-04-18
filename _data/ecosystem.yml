@@ -1,0 +1,24 @@
+- name: Architecture
+  slug: architecture
+- name: Civic Systems
+  slug: civic-systems
+- name: Open Making
+  slug: open-making
+- name: Impact Hubs
+  slug: impact-hubs
+  summary: |
+      Foo bar *dolores*.
+      
+      Bazarama!
+- name: Acceleration
+  slug: acceleration
+  summary: |
+      Foo bar *dolores*.
+      
+      Bazarama!
+- name: Research
+  slug: research
+  summary: |
+      Foo bar *dolores*.
+      
+      Bazarama!

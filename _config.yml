@@ -1,12 +1,14 @@
-encoding:    utf-8
-permalink:   none
-timezone:    Europe/London
+encoding:     utf-8
+timezone:     Europe/London
 
-source:      .
-include:     []
-exclude:     ['Gemfile', 'Gemfile.lock', 'Procfile']
-destination: ./_site
+permalink:    /:categories/:title/
 
-collections:
-- people
+markdown:     kramdown
+markdown_ext: md
+redcarpet:
+  extensions: []
 
+source:       .
+include:      []
+exclude:      ['Gemfile', 'Gemfile.lock', 'Procfile', 'README.md']
+destination:  ./_site

@@ -1,0 +1,8 @@
+- name: Members
+  slug: members
+- name: Constitution
+  slug: constitution
+- name: Ecosystem
+  slug: ecosystem
+- name: Protocols
+  slug: protocols

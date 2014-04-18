@@ -1,0 +1,90 @@
+
+section {
+  padding: 2.5em;
+}
+section.white {
+  background: #fefefe;
+  color: #101010;
+}
+section.black {
+  background: #101010;
+  color: #efefef;
+}
+.nav-pills {
+  margin-bottom: 0.5em;
+}
+.nav-pills > li > a {
+  font-size: 110%;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #efefef;
+}
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus,
+.nav-pills > li.active > a {
+  background: #212122;
+}
+
+a, a:hover, a:focus {
+  color: black;
+  outline: none;
+}
+ol {
+  list-style-position: inside;
+  margin: 0px; padding: 0px;
+}
+ol li {
+  margin-bottom: 0.5em;
+}
+.little-statement {
+  font-size: 137%;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+section.black .little-statement {
+  font-weight: 100;
+  letter-spacing: 0.05em;
+}
+section.black .little-statement strong {
+  font-weight: 400;
+}
+.big-statement {
+  font-size: 176%;
+  font-weight: 100;
+  line-height: 1.5;
+  letter-spacing: 0.08em;
+}
+.centred {
+  text-align: center;
+}
+.justified {
+  text-align: justify;
+}
+.padded {
+  margin: 1em 1.2em 1.5em 1.2em;
+}
+.space-above {
+  margin-top: 6.5em;
+  margin-bottom: 1.5em;
+}
+.space-below {
+  margin-bottom: 1.5em;
+}
+.space-above-and-below {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.tile {
+  border: none;
+}
+.tile .name {
+  font-size: 105%;
+  padding: 2px 10% 3px;
+  text-decoration: none;
+  border-top: 1px solid #f6f6f7;
+  width: 80%;
+  margin-left: 10%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

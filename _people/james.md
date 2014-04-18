@@ -1,5 +1,0 @@
----
-title: James Arthur
----
-
-Boo.
