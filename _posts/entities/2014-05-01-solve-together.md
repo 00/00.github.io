@@ -4,7 +4,7 @@ slug: solve-together
 website: http://solvetogether.org
 categories:
 - entities
-- impact-hubs
+- civic-systems
 ---
 
 Lorem ipsum.
