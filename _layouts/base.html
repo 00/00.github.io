@@ -25,13 +25,22 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@infostructure00" />
     <meta name="twitter:url" content="http://project00.cc" />
-    <link rel="stylesheet"
+    <link rel="stylesheet" type="text/css"
         href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="//fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
   </head>
   <body>
-    {{ content }}
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-1 col-md-10">
+          {{ content }}
+        </div>
+      </div>
+    </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
     </script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js">

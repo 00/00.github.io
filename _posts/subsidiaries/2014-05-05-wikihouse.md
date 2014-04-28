@@ -1,11 +1,11 @@
 ---
 title: WikiHouse
+description: Open source construction system.
 slug: wikihouse
 website: http://www.wikihouse.cc
 img: ...
 categories:
-- entities
-- open-making
+- subsidiaries
 ---
 
 Lorem ipsum.

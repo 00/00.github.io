@@ -1,10 +1,10 @@
 ---
 title: Solve Together
+description: Accelerator solving problems that matter.
 slug: solve-together
 website: http://solvetogether.org
 categories:
-- entities
-- civic-systems
+- subsidiaries
 ---
 
 Lorem ipsum.

@@ -1,8 +1,15 @@
 ---
-title: "00"
-byline: "Nothing ventured, nothing gained"
+title: "Project 00"
 layout: home
 ---
 
-00 seeks to develop a radically decentralised and emergent commons-based ecosystem
-where individuals and entities create, shape and evolve their own networks.
+Zero zero is a [collaborative studio][] of architects, strategic designers,
+programmers, social scientists, economists and urban designers practicing
+design beyond its traditional borders.
+
+Our subsidiaries are listed below. We operate an
+[open business model »][]
+
+[Zero zero]: /
+[collaborative studio]: /members/
+[open business model »]: https://github.com/00/model

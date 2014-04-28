@@ -2,153 +2,30 @@
 layout: base
 ---
 
-<section class="white" id="home">
-  <div class="container space-above centred">
-    <img src="/gfx/00.jpg" alt="00" />
-    <div class="little-statement centred">
-      {{ page.byline | downcase }}
-    </div>
+<section id="home">
+  <div class="logo">
+    <a href="/" title="Project 00">
+      <img src="/gfx/00.jpg" alt="00 Logo" /></a>
+  </div>
+  <div class="intro">
+    {{ content }}
   </div>
 </section>
 
-<section class="black" id="vision">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
-        <div class="big-statement padded centred"
-            style="margin-bottom: 2em">
-          {{ content }}
-        </div>
+<section id="subsidiaries">
+  <div class="row">
+    {% for subsidiary in site.categories.subsidiaries reversed %}
+      <div class="col-sm-6">
+        {% include subsidiary.partial.html %}
       </div>
-    </div>
-  </div>
-  <br />
-  <div id="navfix">
-    <a href="#home">
-      <img class="revealed-image" src="/gfx/00_inverse.png" />
-    </a>
-    <div class="revealed-image revealed-image-right">
-      <a href="#home">
-        <span class="glyphicon glyphicon-collapse-up"></span>
-      </a>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-offset-1 col-sm-10 col-lg-offset-2 col-lg-8">
-          <ul class="nav nav-pills nav-justified">
-            <li style="display: none"><a href="#home"></a></li>
-            {% for item in site.data.navigation %}
-              <li>
-                <a href="#{{ item.slug }}">{{ item.name }}</a>
-              </li>
-            {% endfor %}
-            <li style="display: none"><a href="#contact"></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    
+    {% endfor %}
   </div>
 </section>
 
-<section class="white" id="members">
-  <div class="container space-below">
-    <div class="row">
-      <div class="col-xs-12 col-lg-offset-1 col-lg-10">
-        <div class="row">
-          {% for person in site.categories.people reversed %}
-            <div class="col-xs-6 col-sm-4 col-md-3">
-              {% include person.partial.html %}
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="black" id="constitution">
-  <div class="container space-below">
-    <div class="row">
-      <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-        {% for page in site.pages %}
-          {% if page.title == 'Constitution' %}
-            <div class="big-statement padded centred">
-              {{ page.intro }}
-            </div>
-            <div class="little-statement">
-              {{ page.content | markdownify }}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="white" id="ecosystem">
-  <div class="container space-above-and-below">
-    <div class="row">
-      {% for item in site.categories.ecosystem reversed %}
-        <!--div class="space-below" id="{{ item.slug }}">
-          <div class="big-statement padded">
-            {{ item.title }}
-          </div>
-          <div class="little-statement padded">
-            {{ item.content }}
-          </div>
-        </div-->
-        <!--div class="row"-->
-          {% for entity in site.categories.entities reversed %}
-            {% if entity.categories contains item.slug %}
-              <div class="col-xs-12 col-sm-6 col-lg-4">
-                {% include entity.partial.html %}
-              </div>
-            {% endif %}
-          {% endfor %}
-        <!--/div-->
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="black" id="protocols">
-  <div class="container space-below">
-    <div class="row">
-      <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-        {% for page in site.pages %}
-          {% if page.title == 'Protocols' %}
-            <div class="big-statement padded centred">
-              {{ page.intro }}
-            </div>
-            <div class="little-statement">
-              {{ page.content | markdownify}}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="white" id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-        <div class="little-statement padded centred">
-          <a href="#home" title="00">
-            <img src="/gfx/00.jpg" alt="00" width="65px" /></a>
-        </div>
-        <div class="little-statement padded centred">
-          <a href="https://maps.google.com/?q=80%20Haymarket&sll=51.5079033,-0.1317818">
-            80 Haymarket<br />
-            London SW1Y 4TE, UK.</a>
-        </div>
-        <div class="little-statement padded centred">
-          <a href="https://twitter.com/infostructure00">
-            @infostructure00</a>
-        </div>
-      </div>
-    </div>
-  </div>
+<section id="contact">
+  <p>
+    <a href="https://maps.google.com/?q=80%20Haymarket&sll=51.5079033,-0.1317818">
+      80 Haymarket<br />
+      London SW1Y 4TE, UK.</a>
+  </p>
 </section>

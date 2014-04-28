@@ -1,10 +1,10 @@
 ---
-title: Hub Westminster
+title: Hub Engine
+description: Collaborative platform for social entrepreneurs.
 slug: hub-westminster
 website: http://westminster.impacthub.net
 categories:
-- entities
-- impact-hubs
+- subsidiaries
 ---
 
 Lorem ipsum.
