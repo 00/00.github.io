@@ -37,7 +37,7 @@ section {
 .tile {
   border: none;
   margin-bottom: 1.65em;
-  font-size: 110%;
+  font-size: 105%;
 }
 .tile .name {
   white-space: nowrap;
