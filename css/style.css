@@ -1,10 +1,23 @@
 
+
+/* XXX remove when we have proper images */
+
+.tile {
+  margin-left: -1%;
+  margin-right: -1%;
+}
+
+/* end XXX */
+
+
+
 /* typesetting */
 
 body {
   font-family: "Karla", helvetica, "report", sans-serif;
   font-size: 1.6em;
   line-height: 1.4em;
+  color: black;
 }
 a, a:hover, a:focus {
   color: black;
@@ -17,6 +30,9 @@ p {
 }
 p > a {
   white-space: nowrap;
+}
+.row-title {
+  font-size: 22px;
 }
 .intro {
   font-size: 150%;

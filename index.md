@@ -10,5 +10,5 @@ design beyond its traditional borders.
 Our subsidiaries are listed below. We operate an [open business model »][]
 
 [Zero zero]: /
-[collaborative studio]: /members/
+[collaborative studio]: /members.html
 [open business model »]: https://github.com/00/model

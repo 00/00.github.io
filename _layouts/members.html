@@ -1,0 +1,48 @@
+---
+layout: base
+---
+
+<section id="home">
+  <div class="logo">
+    <a href="/" title="Project 00">
+      <img src="/gfx/00_blackonwhite.png"
+          alt="00 Logo"
+          width="150"
+      /></a>
+  </div>
+  <div class="intro">
+    {{ content }}
+  </div>
+</section>
+
+<section id="members">
+  {% for person in site.categories.people reversed %}
+    <div class="row">
+      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+      {% if thecycle != 'odd-' %}
+        <div class="col-sm-4 col-md-3">
+          <img src="/gfx/people/{{ person.initials }}.jpg" />
+        </div>
+      {% endif %}
+      <div class="col-sm-8 col-md-9">
+        <h4 class="row-title">
+          {{ person.title }}
+        </h4>
+        {{ person.content }}
+      </div>
+      {% if thecycle == 'even-' %}
+        <div class="col-sm-4 col-md-3">
+          <img src="/gfx/people/{{ person.initials }}.jpg" />
+        </div>
+      {% endif %}
+    </div>
+    <hr />
+  {% endfor %}
+  <div class="row">
+    <div class="col-sm-offset-4 col-sm-8 col-md-offset-3 col-md-9">
+      <a href="javascript:history.back();">
+        <span class="glyphicon glyphicon-share flip-horizontal"></span>
+        Back home</a>
+    </div>
+  </div>
+</section>
