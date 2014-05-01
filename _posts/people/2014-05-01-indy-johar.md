@@ -6,7 +6,7 @@ categories:
 - people
 ---
 
-Indy is a co-founder of 00:/ a qualified architect and regeneration consultant
+Indy is a co-founder of 00 and a qualified architect and regeneration consultant
 with particular experience in socially driven sustainability. He is
 [@indy_johar][] on Twitter.
 
