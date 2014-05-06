@@ -6,5 +6,4 @@ categories:
 - people
 ---
 
-Linton Ross is an Architect with over 30 years experience in private practice.
-He was one of the original partners at Feilden Clegg Bradley Studios.
+Linton is an Architect with in-depth experience in design, procurement and implementation of major projects. His experience was gained whilst a Project Partner at Feilden Clegg Bradley Studios prior to joining 00.
