@@ -6,4 +6,4 @@ categories:
 - people
 ---
 
-Joanna's bio to be updated.
+Joanna is operations at 00 with experience in a variety of administrative based skills.
