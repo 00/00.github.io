@@ -6,5 +6,5 @@ categories:
 - people
 ---
 
-Jean's bio to be updated.
+Jean is a qualified architect  specialising in materials, buildablity and craftsmanship. She is particularly committed to the promotion of teamwork across the construction industry.
 
