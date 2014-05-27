@@ -6,9 +6,7 @@ categories:
 - people
 ---
 
-Laura has 10 years experience working in the not-for-profit and community sector. She is a passionate
-believer in the power of collaborative projects to build better communities, with a proven track record in raising
-awareness, building networks and encouraging action for a range of organisations.
+Laura is a director of Civic Systems Lab, working to produce systems change for whole community benefit. Recent work includes: Coordinator of The Open Works, an experimental project with Lambeth Council re-imagining how residents and professionals can work together for collective impact; Co-Editor in Chief of the Community Lover’s Guide to the Universe, a global collaborative book project researching innovative community practice; and Co-Founder of Trade School London, an alternative education space run on barter.
 
 She is[@laurabillings][] on Twitter.
 
