@@ -6,4 +6,4 @@ categories:
 - people
 ---
 
-Joanna is operations at 00 with experience in a variety of administrative based skills.
+Joanna focuses on growth of the organisation through culture as much as systems, building on the ethos of 00. 
