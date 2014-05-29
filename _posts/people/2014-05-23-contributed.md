@@ -1,6 +1,6 @@
 ---
 title: Members contributed to 00
-initials: DS2
+initials: 00
 layout: person
 categories:
 - people
